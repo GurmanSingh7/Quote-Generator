@@ -1,4 +1,5 @@
 const quotes = [
+    
     "The only way to do great work is to love what you do. - Steve Jobs",
     "Life is what happens when you're busy making other plans. - John Lennon",
     "Do not watch the clock. Do what it does. Keep going. - Sam Levenson",
@@ -56,9 +57,11 @@ const quotes = [
     "The future depends on what you do today. – Mahatma Gandhi",
 
 ]
+
 const button = document.querySelector('button');
 const quote = document.querySelector('h1');
 button.addEventListener('click', () => {
     const index = Math.floor(Math.random() * quotes.length);
     quote.textContent = quotes[index];
+    
 })
