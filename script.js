@@ -1,4 +1,5 @@
 const quotes = [
+    
     "The only way to do great work is to love what you do. - Steve Jobs",
     "Life is what happens when you're busy making other plans. - John Lennon",
     "Do not watch the clock. Do what it does. Keep going. - Sam Levenson",
